@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Happy Valentine ❤️</title>
+  <title>Happy Valentine Kushal ❤️</title>
   <style>
     body {
-      background: pink;
-      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', Arial, sans-serif;
       text-align: center;
-      padding-top: 50px;
+      padding: 40px;
     }
-    h1 { color: red; }
     .card {
       background: white;
-      padding: 30px;
-      border-radius: 15px;
-      width: 60%;
+      max-width: 700px;
       margin: auto;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>Happy Valentine’s Day ❤️</h1>
-    <p>To the most amazing boyfriend 💕</p>
-    <p>You make my life brighter every day.</p>
-    <p>I’m so lucky to have you 💖</p>
-    <h3>Love you always 😘</h3>
-  </div>
-</body>
-</html>
+    h1 {
+      color: #e60026;
+      font-size: 36px;
+    }
+    h2 {
+      color: #ff3366;
+    }
+    p {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+    }
+    .heart {
+      font-size: 40px;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .btn {
+      background: #ff3366;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      cursor: pointer;
